@@ -75,6 +75,12 @@ public class Main {
 
         callFly(helicopter1);
         callTakeOff(helicopter1);
+
+        callFly(airplane2);
+        callTakeOff(airplane2);
+
+        callFly(helicopter2);
+        callTakeOff(helicopter2);
     }
 
     static void callFly(FlyingMachine flyingMachine) {
